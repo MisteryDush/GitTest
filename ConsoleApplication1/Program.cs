@@ -8,7 +8,9 @@ namespace ConsoleApplication1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Committed!");
-            Console.WriteLine("This is for main only!!!");
+            // Here are some changes!
+            var x = 5 + 5;
+            Console.WriteLine(x);
         }
     }
 }
